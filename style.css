@@ -115,15 +115,15 @@ ul li::after{
 
     .home-text{
         margin-top: 10px;
-        font-size: 30px;
-        margin-left: 20px;
+        font-size: 25px;
+        margin-left:20px;
     }
     .all-social{
         height: 510px;
     }
     .tect{
         padding-top: 30px;
-        font-size: 30px;
+        font-size: 25px;
         padding-left: 10px;
         margin-left: 10px;
     }
