@@ -106,7 +106,7 @@ ul li::after{
     margin-top: -20px;
     margin-left: 100px;
 }
-@media only screen and (min-device-width:300px) and (max-device-width:449px) {
+@media only screen and (min-device-width:300px) and (max-device-width:450px) {
 
     .img{
         width: 200px;
