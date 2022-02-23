@@ -13,7 +13,7 @@ background: linear-gradient(118deg, rgba(0,9,10,1) 0%, rgba(0,154,5,1) 83%);
 background-repeat: no-repeat;
 }
 .home-page{
-    
+ width: 100%;   
 }
 
 .img{
@@ -100,82 +100,173 @@ ul li::after{
     background: var(--bg);
     transform: rotate(45deg);
 }
-
-@media only screen and (max-width:450px) {
-    .img{
-        width: 100px;
-        margin-left:40% ;
-    }
-    .home-text{
-        margin-left: 10px;
-        margin-top: 80px;
-    }
-    .all-social{
-        
-     
-    }
-    .tect{
-        margin-top: 80px;
-margin-left: 10px;
-    }
-    ul{
-        margin-top: 100px;
-        margin-left: 20px;
-    }
-    ul li{
-        margin-left: 5px;
-    }
+.img1{
+    background: white;
 }
-
-@media only screen and (max-width:385px) {
-    .img{
+@media only screen and (max-width:450px) {
+    img{
         width: 100px;
-        margin-left:40% ;
+        margin-left: 45%;
+    }
+    .home-page{
+        width: 100%;
     }
     .home-text{
+        font-size: 30px;
         margin-left: 30px;
-        margin-top: 50px;
-    }
-    .all-social{
-        
     }
     .tect{
-margin-left: 30px;
-    }
-    .div{
-        margin-top: 30px;
+        font-size: 30px;
+        margin-left: 50px;
     }
     ul{
-        margin-top: 30px;
         margin-left: 20px;
     }
     ul li{
-        
-        margin-left: 0px;
+        margin-left: 8px;
     }
 }
 @media only screen and (max-width:550px) {
-    .img{
+    img{
         width: 100px;
-        margin-left:40% ;
+        margin-left: 55%;
+    }
+    .home-page{
+        width: 100%;
     }
     .home-text{
-        margin-left: 30px;
-        margin-top: 50px;
+        margin-top: 30px;
+        font-size: 30px;
+        margin-left: 20px;
     }
- 
     .tect{
-margin-left: 30px;
-    }
-    .div{
-        margin-top: 50px;
+        font-size: 30px;
+        margin-left: 20px;
     }
     ul{
-        margin-top: 50px;
         margin-left: 20px;
     }
     ul li{
-        
-        margin-left: 5px;
+        margin-left: 8px;
+    }
+}
+@media only screen and (max-width:650px) {
+    .img{
+        width: 150px;
+        margin-left: 40%;
+    }
+    .home-page{
+        width: 100%;
+    }
+    .home-text{
+        margin-top: 30px;
+        font-size: 27px;
+        margin-left: 20px;
+    }
+    .tect{
+        font-size: 27px;
+        margin-left: 20px;
+    }
+    ul{
+        margin-left: 50px;
+    }
+    ul li{
+        margin-left: 8px;
+    }
+}
+@media only screen and (max-width:750px) {
+    .img{
+        width: 150px;
+        margin-left: 40%;
+    }
+    .home-page{
+        width: 100%;
+    }
+    .home-text{
+        margin-top: 30px;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .tect{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    ul{
+        margin-left: 80px;
+    }
+    ul li{
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width:850px) {
+    .img{
+        width: 150px;
+        margin-left: 40%;
+    }
+    .home-page{
+        width: 100%;
+    }
+    .home-text{
+        margin-top: 30px;
+        font-size: 25px;
+        margin-left: 80px;
+    }
+    .tect{
+        font-size: 25px;
+        margin-left: 80px;
+    }
+    ul{
+        margin-left: 100px;
+    }
+    ul li{
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width:950px) {
+    .img{
+        width: 150px;
+        margin-left: 40%;
+    }
+    .home-page{
+        width: 100%;
+    }
+    .home-text{
+        margin-top: 30px;
+        font-size: 25px;
+        margin-left: 100px;
+    }
+    .tect{
+        font-size: 25px;
+        margin-left: 100px;
+    }
+    ul{
+        margin-left: 120px;
+    }
+    ul li{
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width:1050px) {
+    .img{
+        width: 150px;
+        margin-left: 40%;
+    }
+    .home-page{
+        width: 100%;
+    }
+    .home-text{
+        margin-top: 30px;
+        font-size: 25px;
+        margin-left: 120px;
+    }
+    .tect{
+        font-size: 25px;
+        margin-left: 120px;
+    }
+    ul{
+        margin-left: 140px;
+    }
+    ul li{
+        margin-left: 15px;
     }
 }
