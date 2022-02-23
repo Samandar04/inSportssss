@@ -101,7 +101,11 @@ ul li::after{
     background: var(--bg);
     transform: rotate(45deg);
 }
-
+.img1{
+    width: 200px;
+    
+    margin-left: 100px;
+}
 @media only screen and (min-device-width:300px) and (max-device-width:449px) {
 
     .img{
