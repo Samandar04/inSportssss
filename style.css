@@ -30,7 +30,7 @@ background-repeat: no-repeat;
 }
 .all-social{
   padding: 20px;
-    
+    height: 270px;
     background: var(--bg);
 }
 .div{
@@ -104,7 +104,7 @@ ul li::after{
     background: white;
 }
 @media only screen and (max-width:450px) {
-    img{
+    .img{
         width: 100px;
         margin-left: 45%;
     }
@@ -127,12 +127,12 @@ ul li::after{
     }
 }
 @media only screen and (max-width:550px) {
-    img{
+   .img{
         width: 100px;
         margin-left: 55%;
     }
     .home-page{
-        width: 100%;
+      
     }
     .home-text{
         margin-top: 30px;
@@ -161,14 +161,20 @@ ul li::after{
     .home-text{
         margin-top: 30px;
         font-size: 27px;
-        margin-left: 20px;
+        margin-left: 0px;
+    }
+    .all-social{
+        padding: 0px;
+        height: 500px;
     }
     .tect{
+        padding-top: 50px;
         font-size: 27px;
-        margin-left: 20px;
+        padding-left: 10px;
     }
     ul{
-        margin-left: 50px;
+        padding-left: 10px;
+        margin-left: 20px;
     }
     ul li{
         margin-left: 8px;
@@ -187,7 +193,11 @@ ul li::after{
         font-size: 25px;
         margin-left: 20px;
     }
+    .all-social{
+        height: 540px;
+    }
     .tect{
+        padding-top: 100px;
         font-size: 25px;
         margin-left: 20px;
     }
@@ -211,7 +221,11 @@ ul li::after{
         font-size: 25px;
         margin-left: 80px;
     }
+    .all-social{
+        height: 510px;
+    }
     .tect{
+        padding-top: 150px;
         font-size: 25px;
         margin-left: 80px;
     }
@@ -232,11 +246,14 @@ ul li::after{
     }
     .home-text{
         margin-top: 30px;
-        font-size: 25px;
+        font-size: 35px;
         margin-left: 100px;
     }
+    .all-social{
+        height: 510px;    }
     .tect{
-        font-size: 25px;
+        padding-top: 150px;
+        font-size: 35px;
         margin-left: 100px;
     }
     ul{
@@ -256,11 +273,15 @@ ul li::after{
     }
     .home-text{
         margin-top: 30px;
-        font-size: 25px;
+        font-size: 40px;
         margin-left: 120px;
     }
+    .all-social{
+        height: 510px;
+    }
     .tect{
-        font-size: 25px;
+        padding-top: 150px;
+        font-size: 40px;
         margin-left: 120px;
     }
     ul{
