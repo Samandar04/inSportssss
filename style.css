@@ -310,6 +310,7 @@ ul li::after{
     .tect{
         padding-top: 30px;
         font-size: 25px;
+        padding-left: 10px;
         margin-left: 10px;
     }
     ul{
