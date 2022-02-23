@@ -7,6 +7,7 @@
 --bg:#222
 }
 body{
+    
     background: rgb(0,9,10);
 background: linear-gradient(118deg, rgba(0,9,10,1) 0%, rgba(0,154,5,1) 83%);
 
@@ -103,218 +104,29 @@ ul li::after{
 .img1{
     background: white;
 }
-@media only screen and (max-width:450px) {
-    .img{
-        width: 100px;
-        margin-left: 45%;
-    }
-    .home-page{
-        width: 100%;
-    }
-    .home-text{
-        font-size: 30px;
-        margin-left: 30px;
-    }
-    .tect{
-        font-size: 30px;
-        margin-left: 50px;
-    }
-    ul{
-        margin-left: 20px;
-    }
-    ul li{
-        margin-left: 8px;
-    }
-}
-@media only screen and (max-width:550px) {
-   .img{
-        width: 100px;
-        margin-left: 55%;
-    }
-    .home-page{
-      
-    }
-    .home-text{
-        margin-top: 30px;
-        font-size: 30px;
-        margin-left: 20px;
-    }
-    .tect{
-        font-size: 30px;
-        margin-left: 20px;
-    }
-    ul{
-        margin-left: 20px;
-    }
-    ul li{
-        margin-left: 8px;
-    }
-}
-@media only screen and (max-width:650px) {
-    .img{
-        width: 150px;
-        margin-left: 40%;
-    }
-    .home-page{
-        width: 100%;
-    }
-    .home-text{
-        margin-top: 30px;
-        font-size: 27px;
-        margin-left: 0px;
-    }
-    .all-social{
-        padding: 0px;
-        height: 500px;
-    }
-    .tect{
-        padding-top: 50px;
-        font-size: 27px;
-        padding-left: 10px;
-    }
-    ul{
-        padding-left: 10px;
-        margin-left: 20px;
-    }
-    ul li{
-        margin-left: 8px;
-    }
-}
-@media only screen and (max-width:750px) {
-    .img{
-        width: 150px;
-        margin-left: 40%;
-    }
-    .home-page{
-        width: 100%;
-    }
-    .home-text{
-        margin-top: 30px;
-        font-size: 25px;
-        margin-left: 20px;
-    }
-    .all-social{
-        height: 540px;
-    }
-    .tect{
-        padding-top: 100px;
-        font-size: 25px;
-        margin-left: 20px;
-    }
-    ul{
-        margin-left: 80px;
-    }
-    ul li{
-        margin-left: 15px;
-    }
-}
-@media only screen and (max-width:850px) {
-    .img{
-        width: 150px;
-        margin-left: 40%;
-    }
-    .home-page{
-        width: 100%;
-    }
-    .home-text{
-        margin-top: 30px;
-        font-size: 25px;
-        margin-left: 80px;
-    }
-    .all-social{
-        height: 510px;
-    }
-    .tect{
-        padding-top: 150px;
-        font-size: 25px;
-        margin-left: 80px;
-    }
-    ul{
-        margin-left: 100px;
-    }
-    ul li{
-        margin-left: 15px;
-    }
-}
-@media only screen and (max-width:950px) {
-    .img{
-        width: 150px;
-        margin-left: 40%;
-    }
-    .home-page{
-        width: 100%;
-    }
-    .home-text{
-        margin-top: 30px;
-        font-size: 35px;
-        margin-left: 100px;
-    }
-    .all-social{
-        height: 510px;    }
-    .tect{
-        padding-top: 150px;
-        font-size: 35px;
-        margin-left: 100px;
-    }
-    ul{
-        margin-left: 120px;
-    }
-    ul li{
-        margin-left: 15px;
-    }
-}
-@media only screen and (max-width:1050px) {
-    .img{
-        width: 150px;
-        margin-left: 40%;
-    }
-    .home-page{
-        width: 100%;
-    }
-    .home-text{
-        margin-top: 30px;
-        font-size: 40px;
-        margin-left: 120px;
-    }
-    .all-social{
-        height: 510px;
-    }
-    .tect{
-        padding-top: 150px;
-        font-size: 40px;
-        margin-left: 120px;
-    }
-    ul{
-        margin-left: 140px;
-    }
-    ul li{
-        margin-left: 15px;
-    }
-}
-@media only screen and (max-width:400px) {
+@media only screen and (min-device-width:300px) and (max-device-width:449px) {
+
     .img{
         width: 100px;
         margin-left: 40%;
     }
-    .home-page{
-        width: 100%;
-    }
+
     .home-text{
         margin-top: 10px;
-        font-size: 25px;
-        margin-left: 10px;
+        font-size: 30px;
+        margin-left: 20px;
     }
     .all-social{
-        height: 360px;
+        height: 510px;
     }
     .tect{
         padding-top: 30px;
-        font-size: 25px;
+        font-size: 30px;
         padding-left: 10px;
         margin-left: 10px;
     }
     ul{
-        margin-left: 20px;
+        margin-left: 0px;
     }
     ul li{
         margin-left: 0px;
