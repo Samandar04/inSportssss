@@ -101,14 +101,16 @@ ul li::after{
     background: var(--bg);
     transform: rotate(45deg);
 }
-.img1{
-    background: white;
-}
+
 @media only screen and (min-device-width:300px) and (max-device-width:449px) {
 
     .img{
-        width: 100px;
-        margin-left: 40%;
+        width: 200px;
+        margin-left: 35%;
+    }
+    .img1{
+        width: 200px;
+        margin-left: 35%;
     }
 
     .home-text{
